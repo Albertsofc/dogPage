@@ -1,5 +1,13 @@
 
 <html>
+<div class="topnav">
+    <a class="active" href="#home">Home</a>
+    <a href="#stats">Women in STEM Stats</a>
+    <a href="#contact">Contact</a>
+    <a href="#opportunities">Opportunities for Women in STEM</a>
+    <a href="#meet">Meet the Inspo</a>
+
+</div>
     <head>
         <title>The 15 Percent</title>
         <style>
@@ -14,9 +22,36 @@
             text-align: center;
             color: rgb(89, 128, 212);
         }
+        .topnav {
+    background-color: rgb(246,254,255) ;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #4c4c4c;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: rgb(255,204,204);
+    color: #4c4c4c;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: rgb(255,153,153);
+    color: white;
+
+}
         #title{
             text-align: center;
-            font-family:'Snell Roundhand Script';
+            font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; 
             font-size: 100px;
             color: rgb(99, 51, 112);
         }
@@ -25,33 +60,61 @@
             font-size: 70px;
             color: rgb(99, 51, 112);
         }
+        #the{
+            font-size: 48px;
+            font-family:
+            font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter 
+        }
+        #text{
+            font-size: 32px;
+            font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter; 
+        }
         img{
-        max-height: 700px;
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 40%;
-        border: 8px white;
-        padding: 14px;
-        background: white;
+        border: 8px;
+        padding: 14px red;
         }
+        img a:hover {
+            
+}
+        .tabcontent {
+    display: block;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: 6px;
+}
        
         </style>
     </head>
     <body>
         
-        <h1 id="title">----The 15 Percent----</h1>
-        <h3>     &nbsp;&nbsp;&nbsp;&nbsp;Browse this website to get a glimpse of the daily life of <br> &nbsp;&nbsp;&nbsp;&nbsp;the mysterious<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the wonderous<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the </h3>
-        <h2 id="per"><em><strong>~~fifteen percent~~</em></strong></h2>
+        <h1 id="title">The 15 Percent</h1>
+        <h3 id="text">     &nbsp;&nbsp;&nbsp;&nbsp;Browse this website to get a glimpse of the daily life of <br> &nbsp;&nbsp;&nbsp;&nbsp;the mysterious<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the wonderous</h3>
+        <h2 id="the">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the</h2>
+        <h2 id="per"><em><strong>~fifteen percent~</em></strong></h2>
         <h2 class="dates">9.11.2018</h2>
-        <img src="first.jpg" alt="first day's illustrations" width="700">
+        <img src="first.jpg" alt="first day's illustrations" width="1000">
         <h2 class="dates">9.12.2018</h2>
-        <img src="l.jpg" alt="second day's illustrations" width="700">
+        <img src="l.jpg" alt="second day's illustrations" width="1000">
         <h2 class="dates">9.13.2018</h2>
-        <img src="third.jpg" alt="third day's illustrations" width="700">
+        <img src="third.jpg" alt="third day's illustrations" width="1000">
         <h2 class="dates">9.16.2018</h2>
-        <img src="fourth.jpg" alt="fourth day's illustrations" width="700">
+        <img src="fourth.jpg" alt="fourth day's illustrations" width="1000">
         <h2 class="dates">9.17.2018</h2>
-        <img src="fifth.jpg" alt="fifth day's illustrations" width="700">
+        <img src="fifth.jpg" alt="fifth day's illustrations" width="1000">
     </body>
+    <!-- Tab links -->
+
+<!-- Tab content -->
+<div id="Home" class="tabcontent">
+</div>
+
+<div id="Women in STEM Stats" class="tabcontent">
+</div>
+
+<div id="Opportunities for Women in STEM" class="tabcontent">
+</div>
 </html>
